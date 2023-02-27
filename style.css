@@ -3,19 +3,36 @@
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-}
 .container {
     width: 1440px;
     height: 1533px;
     background-color: #E5E5E5;
-    padding-top: 218px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    padding-top: 160px;
 }
 
-.box {
+.vital {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box-blue {
+    width: 23px;
+    height: 23px;
+    background-color: blue;
+    margin-right: 22px;
+
+}
+
+.sam {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-yellow {
     width: 23px;
     height: 23px;
     background-color: yellow;
