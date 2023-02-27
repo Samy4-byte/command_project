@@ -1,22 +1,85 @@
-body {
-  display: flex;
-  align-items: center;
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
-.main {
-  width: 23px;
-  height: 23px;
-  background-color: blue;
-  display: flex;
-  justify-content: center;
-align-items: center;
+
+.container {
+    width: 1440px;
+    height: 1533px;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 160px;
+}
+
+.vital {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+
 }
 .green-box {
   width: 23px;
   height: 23px;
   background: #84F9C1;
+  margin-right: 22px;
 }
-.box-green {
+.abai-box {
+    display: flex;
+}
+
+.box-blue {
+    width: 23px;
+    height: 23px;
+    background-color: blue;
+    margin-right: 22px;
+
+}
+
+.sam {
+    display: flex;
+    flex-direction: row;
+     margin-bottom: 35px;
+
+}
+
+.box-yellow {
+    width: 23px;
+    height: 23px;
+    background-color: yellow;
+    margin-right: 22px;
+}
+.green-house {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 260px;
   height: 289px;
   background: #84F9C1;
+  margin-top: 710px;
+  margin-right: 75px;
+}
+.box-1 {
+    display: flex;
+    margin-top: 44px;
+}
+.box-2 {
+    display: flex;
+    margin-top: 26px;
+}
+.box-violet {
+    width: 55px;
+    height: 50px;
+    background: #E7C1F9;
+    margin-left: 16px;
+}
+.box-violet:first-child {
+    margin-left: 0;
+}
+.box-orange {
+    width: 63px;
+    height: 94px;
+    background: #FFECBB;
+    margin-top: 26px;
 }
