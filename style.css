@@ -18,6 +18,11 @@
     flex-direction: row;
 
 }
+.green-box {
+  width: 23px;
+  height: 23px;
+  background: #84F9C1;
+}
 
 .box-blue {
     width: 23px;
