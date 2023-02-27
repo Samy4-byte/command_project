@@ -1,6 +1,4 @@
 body {
-  display: flex;
-  align-items: center;
 }
 .main {
   width: 23px;
@@ -9,4 +7,56 @@ body {
   display: flex;
 justify-content: center;
 align-items: center;
+}
+.blu-house-reletive {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+.blu-house {
+  width: 247px;
+  height: 351px;
+  background-color: blue;
+  display: flex;
+
+}
+.two-windows {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.box-1 {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  margin-left: 23px;
+}
+.doors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.box-2 {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  margin-left: 23px;
+}
+.box-3 {
+  width: 82px;
+  height: 108px;
+  background-color: white;
+  margin-top: 23px;
+  margin-right: 23px;
+  margin-left: 40px;
+}
+.box-4 {
+  width: 55px;
+  height: 127px;
+  background-color: white;
+  margin-left: 20px;
+ 
 }
