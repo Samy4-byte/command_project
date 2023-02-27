@@ -7,6 +7,11 @@ body {
   height: 23px;
   background-color: blue;
   display: flex;
-justify-content: center;
+  justify-content: center;
 align-items: center;
+}
+.green-box {
+  width: 23px;
+  height: 23px;
+  background: #84F9C1;
 }
